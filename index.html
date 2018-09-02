@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	  <!-- Важная техническая информация для браузера -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Информация об Авторе и описание проекта -->
+		<meta name="description" content="Сайт веб-дизайнера Андрея Шевелева">
+		<meta name="author" content="Андрей Шевелев">
+		
+		<!-- Гугл фонт -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+		<!-- Иконка, которая будет на вкладке в браузере -->
+		<link rel="icon" href="/favicon.ico">
+		<!-- Заголовок на вкладке в браузере -->
+		<title>Андрей Шевелев - создание сайтов</title>
+
+		<!-- Подключаем наш файл со стилями, который находится в папке css-->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+</head>
+
+<body>
+ <!-- Тут будет модержимое будущего сайта -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<img id="main-img" src="img/main-img.png" alt="">
+				</div>
+				<div class="col-lg-5">
+					<p id="header-pretitle">Веб-разработчик</p>
+					<h1 id="my_name">Андрей Шевелев</h1>
+					<p id="header-subtitle">Верстка на HTML/CSS <br />
+						Разработка сайтов под ключ</p>
+					<div id="header-button-block">
+						<button id="header-connect-button">Связаться*</button>
+						<small>*Это бесплатно</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="portfolio">
+		<div class="container">
+			<div id="portfolio-block">
+				<h2 id="portfolio-title">Портфолио</h2>
+				<p id="portfolio-subtitle">Мои работы</p>
+				<div class="row">
+						<div class="col-md-6">
+							<div id="portfolio-col1">
+								<img src="img/portfolio-img-1.png" alt="Газпром">
+								<h3>внутренний университет «Газпром нефти»</h3>
+								<p class="portfolio-text">У «Газпром нефти» есть внутренний Корпоративный университет для сотрудников. Это настоящий университет, где сотрудники проходят обучение у внутренних тренеров компании или у специально приглашенных лекторов и экспертов....</p>
+								<a href="#">Смотреть работу</a>
+							</div>
+						</div>
+						<div class="col-md--md6">
+							<div id="portfolio-col2">
+								<img src="img/portfolio-img-2.png" alt="МИР">
+								<h3>Сайт платежной системы «Мир»</h3>
+								<p class="portfolio-text">Обновленная версия сайта знакомит посетителей с компаниями, уже принимающими карты к оплате, и приглашает всех остальных присоединиться к проекту...</p>
+								<a href="#">Смотреть работу</a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="footer-block">
+						<h4>Андрей Шевелев</h4>
+						<p>Разработка сайтов под ключ</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="social-block" class="footer-block">
+						<p>Подпишитесь:</p>
+						<a href="#"><img src="img/socials/facebook-logo-button.png" alt="FB"></a>
+						<a href="#"><img src="img/socials/vk-social-logotype.png" alt="VK"></a>
+						<a href="#"><img src="img/socials/telegram-symbol.png" alt="Tg"></a>
+						<a href="#"><img src="img/socials/youtube-symbol.png" alt="YT"></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="footer-button-block" class="footer-block">
+						<p>Напишите мне:</p>
+						<button id="footer-button">Написать</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
